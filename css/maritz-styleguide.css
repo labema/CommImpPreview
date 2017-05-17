@@ -1,0 +1,1279 @@
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,700);
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+ */
+[hidden],
+template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
+ */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  /*margin: 0.67em 0;*/
+
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+input {
+  line-height: normal; }
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  box-sizing: content-box;
+  /* 2 */ }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+
+/* ===========================================================
+ *
+ *  Name:          selectordie_dev.css
+ *  Updated:       2014-10-10
+ *  Created by:    Per V @ Vst.mn
+ *  What?:         Base CSS for Select or Die
+ *
+ *  Copyright (c) 2014 Per Vestman
+ *  Dual licensed under the MIT and GPL licenses.
+ *
+ *  No, I don't usually comment my CSS, but in this
+ *  case it might "help" someone.
+ *
+ *  Oddny | Cogs 'n Kegs
+ * =========================================================== */
+/* Remove, change to fit your needs */
+.sod_select,
+.sod_select * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+/* The SoD - Please keep this first three lines intact, otherwise all hell will break looooooose */
+.sod_select {
+  display: inline-block;
+  position: relative;
+  line-height: 1;
+  width: 200px;
+  padding: 15px 10px;
+  border: 3px solid #5e5e5e;
+  background: #ffffff;
+  color: #444444;
+  font-size: 11px;
+  font-weight: 700;
+  text-align: left;
+  text-transform: uppercase;
+  outline: 0;
+  outline-offset: -2px;
+  /* Opera */
+  cursor: default; }
+
+/* Up/Down arrows */
+.sod_select:before,
+.sod_select:after {
+  content: "\25B2";
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  font-size: 7px; }
+
+/* Down arrow */
+.sod_select:after {
+  content: "\25BC";
+  top: auto;
+  bottom: 12px; }
+
+/* Change the border color on hover, focus and when open */
+.sod_select:hover,
+.sod_select.open,
+.sod_select.focus {
+  border-color: #000000; }
+
+.sod_select.open {
+  color: #919191; }
+
+.sod_select.focus {
+/*  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */ }
+
+/* When the entire SoD is disabled, go crazy! */
+.sod_select.disabled {
+  border-color: #828282;
+  color: #b2b2b2;
+  cursor: not-allowed; }
+
+/* The "label", or whatever we should call it. Keep the first three lines for truncating. */
+.sod_select .sod_label {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-right: 15px; }
+
+.sod_select .sod_prefix {
+  /* Use this if you're using a prefix and want to style it */ }
+
+.sod_select .sod_placeholder {
+  /* Use this if you're using a placeholder and want to style it */ }
+
+/* Options list wrapper */
+.sod_select .sod_list_wrapper {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  height: auto;
+  width: 200px;
+  margin: 0 0 0 -3px;
+  background: #ffffff;
+  border: 3px solid #000000;
+  border-top: none;
+  color: #444444;
+  font-weight: 300;
+  z-index: 1; }
+
+/* Shows the option list (don't edit) */
+.sod_select.open .sod_list_wrapper {
+  display: block; }
+
+/* Don't display the options when  */
+.sod_select.disabled.open .sod_list_wrapper {
+  display: none; }
+
+/* When the option list is displayed above the SoD */
+.sod_select.above .sod_list_wrapper {
+  top: auto;
+  bottom: 100%;
+  border-top: 3px solid #000000;
+  border-bottom: none; }
+
+/* Options list container */
+.sod_select .sod_list {
+  display: block;
+  overflow-y: auto;
+  padding: 0;
+  margin: 0; }
+
+/* All the options. Keep the first three lines for truncating... */
+.sod_select .sod_option {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  position: relative;
+  padding: 10px 10px;
+  list-style-type: none; }
+
+/* Optgroups */
+.sod_select .sod_option.optgroup,
+.sod_select .sod_option.optgroup.disabled {
+  background: inherit;
+  color: #939393;
+  font-size: 10px;
+  font-style: italic; }
+
+/* Children of an optgroup */
+.sod_select .sod_option.groupchild {
+  padding-left: 20px; }
+
+/* Used together with placeholderOption / data-placeholder-option */
+.sod_select .sod_option.is-placeholder {
+  display: none; }
+
+/* Disabled option */
+.sod_select .sod_option.disabled {
+  background: inherit;
+  color: #cccccc; }
+
+/* Hover state for options, also used when a user uses his/hers up/down keys */
+.sod_select .sod_option.active {
+  background: #f7f7f7;
+  color: #333333; }
+
+/*Make room for the check mark */
+.sod_select .sod_option.selected {
+  font-weight: 700;
+  padding-right: 25px; }
+
+/* Displays a check mark for the selected option */
+.sod_select .sod_option.selected:before {
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: inline-block;
+  color: #808080;
+  height: 9px;
+  width: 10px;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMTAgOSIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMTAgOSIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8Zz4NCgk8cGF0aCBmaWxsPSIjRDlEOUQ4IiBkPSJNNCw2LjdDMy42LDYuMywzLjUsNi4xLDMuMSw1LjdDMi42LDUuMiwyLDQuNiwxLjUsNC4xYy0wLjgtMC44LTIsMC40LTEuMiwxLjJjMC45LDAuOSwxLjksMS45LDIuOCwyLjgNCgkJYzAuNywwLjcsMS4zLDEsMiwwQzYuNyw2LDguMywzLjcsOS44LDEuNUMxMC41LDAuNSw5LTAuMyw4LjMsMC42bDAsMEM2LjcsMi45LDUuNyw0LjQsNCw2LjciLz4NCjwvZz4NCjwvc3ZnPg0K); }
+
+/* Add a .no_highlight class to you SoD to hide the check mark and don't bold the option */
+.sod_select.no_highlight .sod_option.selected {
+  font-weight: 300; }
+
+.sod_select.no_highlight .sod_option.selected:before {
+  display: none; }
+
+.sod_select .sod_option.link {
+  /* If data-link is set on a specific option */ }
+
+.sod_select .sod_option.linkexternal {
+  /* If data-link-external is set on a specific option */ }
+
+/* Hide native select */
+.sod_select select {
+  display: none !important; }
+
+/* The native select in touch mode. Keep this first line. Sorry, keep everything. */
+.sod_select.touch select {
+  -webkit-appearance: menulist-button;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block !important;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  z-index: 1; }
+
+/* ===========================================================
+ *
+ *  Name:          selectordie_dev.css
+ *  Updated:       2014-10-10
+ *  Created by:    Per V @ Vst.mn
+ *  What?:         Base CSS for Select or Die
+ *
+ *  Copyright (c) 2014 Per Vestman
+ *  Dual licensed under the MIT and GPL licenses.
+ *
+ *  No, I don't usually comment my CSS, but in this
+ *  case it might "help" someone.
+ *
+ *  Oddny | Cogs 'n Kegs
+ * =========================================================== */
+.sod_select,
+.sod_select * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+/* The SoD - Please keep this first three lines intact, otherwise all hell will break looooooose */
+.sod_select {
+  display: inline-block;
+  position: relative;
+  line-height: 1;
+  width: 100%;
+  padding: 15px 10px;
+  border: 1px solid #cfcfcf;
+  background: transparent;
+  color: #cfcfcf;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  text-transform: none;
+  outline: 0;
+  outline-offset: -2px;
+  /* Opera */
+  cursor: default; }
+
+/* Up/Down arrows */
+/* Up arrow */
+.sod_select:before {
+  content: "";
+  width: 46px;
+  height: 46px;
+  border-left: 1px solid #cfcfcf;
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+/* Down arrow */
+.sod_select:after {
+  content: "\f078";
+  font-family: "FontAwesome";
+  font-size: 16px;
+  color: #006bb7;
+  right: 15px;
+  bottom: 15px; }
+
+/* Change the border color on hover, focus and when open */
+.sod_select:hover,
+.sod_select.focus,
+.sod_select.open {
+  border-color: #95c93c; }
+  .sod_select:hover::before,
+  .sod_select.focus::before,
+  .sod_select.open::before {
+    border-color: #95c93c; }
+
+.sod_select.open {
+  color: #cfcfcf; }
+
+.sod_select.focus {
+  outline: 0;
+ /* box-shadow: 0 0 3px 2px #95c93c; */ }
+
+/* When the entire SoD is disabled, go crazy! */
+.sod_select.disabled {
+  border-color: #828282;
+  color: #b2b2b2;
+  cursor: not-allowed; }
+
+/* The "label", or whatever we should call it. Keep the first three lines for truncating. */
+.sod_select .sod_label {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-right: 15px; }
+
+.sod_select .sod_prefix {
+  /* Use this if you're using a prefix and want to style it */ }
+
+.sod_select .sod_placeholder {
+  /* Use this if you're using a placeholder and want to style it */ }
+
+/* Options list wrapper */
+.sod_select .sod_list_wrapper {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  height: auto;
+  width: 100%;
+  margin: 0 0 0 0;
+  background: #ffffff;
+  border: 1px solid #95c93c;
+  border-top: 1px solid #95c93c;
+  color: #cfcfcf;
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 300;
+  z-index: 1; }
+
+/* Shows the option list (don't edit) */
+.sod_select.open .sod_list_wrapper {
+  display: block; }
+
+/* Don't display the options when  */
+.sod_select.disabled.open .sod_list_wrapper {
+  display: none; }
+
+/* When the option list is displayed above the SoD */
+.sod_select.above .sod_list_wrapper {
+  top: auto;
+  bottom: 100%;
+  border-top: 1px solid #95c93c;
+  border-bottom: none; }
+
+/* Options list container */
+.sod_select .sod_list {
+  display: block;
+  overflow-y: auto;
+  padding: 0;
+  margin: 0; }
+
+/* All the options. Keep the first three lines for truncating... */
+.sod_select .sod_option {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  position: relative;
+  padding: 10px 10px;
+  list-style-type: none; }
+
+/* Optgroups */
+.sod_select .sod_option.optgroup,
+.sod_select .sod_option.optgroup.disabled {
+  background: inherit;
+  color: #939393;
+  font-size: 10px;
+  font-style: italic; }
+
+/* Children of an optgroup */
+.sod_select .sod_option.groupchild {
+  padding-left: 20px; }
+
+/* Used together with placeholderOption / data-placeholder-option */
+.sod_select .sod_option.is-placeholder {
+  display: none; }
+
+/* Disabled option */
+.sod_select .sod_option.disabled {
+  background: inherit;
+  color: #cccccc; }
+
+/* Hover state for options, also used when a user uses his/hers up/down keys */
+.sod_select .sod_option.active {
+  background: #95c93c;
+  color: white; }
+
+/*Make room for the check mark */
+.sod_select .sod_option.selected {
+  font-weight: 300;
+  padding-right: 25px; }
+
+/* Displays a check mark for the selected option */
+.sod_select .sod_option.selected:before {
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: inline-block;
+  color: #808080;
+  height: 9px;
+  width: 10px;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMTAgOSIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMTAgOSIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8Zz4NCgk8cGF0aCBmaWxsPSIjRDlEOUQ4IiBkPSJNNCw2LjdDMy42LDYuMywzLjUsNi4xLDMuMSw1LjdDMi42LDUuMiwyLDQuNiwxLjUsNC4xYy0wLjgtMC44LTIsMC40LTEuMiwxLjJjMC45LDAuOSwxLjksMS45LDIuOCwyLjgNCgkJYzAuNywwLjcsMS4zLDEsMiwwQzYuNyw2LDguMywzLjcsOS44LDEuNUMxMC41LDAuNSw5LTAuMyw4LjMsMC42bDAsMEM2LjcsMi45LDUuNyw0LjQsNCw2LjciLz4NCjwvZz4NCjwvc3ZnPg0K); }
+
+/* Add a .no_highlight class to you SoD to hide the check mark and don't bold the option */
+.sod_select.no_highlight .sod_option.selected {
+  font-weight: 300; }
+
+.sod_select.no_highlight .sod_option.selected:before {
+  display: none; }
+
+.sod_select .sod_option.link {
+  /* If data-link is set on a specific option */ }
+
+.sod_select .sod_option.linkexternal {
+  /* If data-link-external is set on a specific option */ }
+
+/* Hide native select */
+.sod_select select {
+  display: none !important; }
+
+/* The native select in touch mode. Keep this first line. Sorry, keep everything. */
+.sod_select.touch select {
+  -webkit-appearance: menulist-button;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block !important;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  z-index: 1; }
+
+* {
+  box-sizing: border-box; }
+
+/* ===========================================================
+ * FONT HELPER CLASSES
+ * =========================================================== */
+.sentinel-300 {
+  font-family: "Sentinel A", "Sentinel B", sans-serif;
+  font-weight: 300; }
+
+.sentinel-300--italic {
+  font-family: "Sentinel A", "Sentinel B", sans-serif;
+  font-weight: 300;
+  font-style: italic; }
+
+.sentinel-400 {
+  font-family: "Sentinel A", "Sentinel B", sans-serif;
+  font-weight: 400; }
+
+.sentinel-400--italic {
+  font-family: "Sentinel A", "Sentinel B", sans-serif;
+  font-weight: 400;
+  font-style: italic; }
+
+.sentinel-600 {
+  font-family: "Sentinel A", "Sentinel B", sans-serif;
+  font-weight: 600; }
+
+.sentinel-600--italic {
+  font-family: "Sentinel A", "Sentinel B", sans-serif;
+  font-weight: 600;
+  font-style: italic; }
+
+.sentinel-700 {
+  font-family: "Sentinel A", "Sentinel B", sans-serif;
+  font-weight: 700; }
+
+.sentinel-700--italic {
+  font-family: "Sentinel A", "Sentinel B", sans-serif;
+  font-weight: 700;
+  font-style: italic; }
+
+.proxima-nova-300 {
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 300; }
+
+.proxima-nova-400 {
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 400; }
+
+/* ===========================================================
+ * HEADINGS
+ * =========================================================== */
+h1 {
+  font-family: "Sentinel A", "Sentinel B", sans-serif;
+  font-size: 150px;
+  font-weight: 700; }
+
+h2 {
+  font-family: "proxima-nova", sans-serif;
+  font-size: 56px;
+  font-weight: 300; }
+
+.h2--caps {
+  font-family: "Sentinel A", "Sentinel B", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700; }
+
+.h2--italic {
+  font-family: "Sentinel A", "Sentinel B", sans-serif;
+  font-style: italic;
+  font-weight: 700; }
+
+h3 {
+  font-family: "proxima-nova", sans-serif;
+  font-size: 35px;
+  font-weight: 100; }
+
+.h3--italic {
+  font-family: "Sentinel A", "Sentinel B", sans-serif;
+  font-style: italic;
+  font-size: 33px;
+  font-weight: 300; }
+
+h4 {
+  font-family: "Sentinel A", "Sentinel B", sans-serif;
+  font-size: 22px;
+  font-weight: 400; }
+
+h2 + h3 {
+  /*margin-top: -1em;*/
+  margin-top:-.5em;
+}
+
+/* ===========================================================
+ * BODY
+ * =========================================================== */
+body {
+  color: #01224c;
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 400;
+}
+
+p, li { 
+  line-height: 26px;
+  font-size:16px;
+  color: #767c84;
+}
+
+.text--light {
+  color: white; }
+
+/* ===========================================================
+ * FOOTER
+ * =========================================================== */
+.footer {
+  color: #cfcfcf; }
+
+/* ===========================================================
+ * COLOR MODIFIERS
+ * =========================================================== */
+.light,
+.light,
+.light {
+  color: white; }
+
+.logo:hover {
+  opacity: 0.6; }
+
+.menu-button {
+  color: white; }
+  .menu-button:hover {
+    opacity: 0.6; }
+
+.icon {
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  position: relative;
+  display: inline-block;
+  padding: 25px; }
+
+.icon:hover {
+  border: 3px solid white; }
+
+.icon__img {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.icon__text {
+  font-family: "Sentinel A", "Sentinel B", sans-serif;
+  font-weight: 300;
+  color: white;
+  font-size: 21px;
+  text-align: center;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 10px; }
+
+#calendar .icon__img {
+  background-image: url("../images/calendar.png"); }
+#calendar:hover {
+  background: #faa21a; }
+
+#conversation .icon__img {
+  background-image: url("../images/conversation alt.png"); }
+#conversation:hover {
+  background: #ce1f2e; }
+
+#award .icon__img {
+  background-image: url("../images/award.png"); }
+#award:hover {
+  background: #05357a; }
+
+#gift .icon__img {
+  background-image: url("../images/gift.png"); }
+#gift:hover {
+  background: #2cb34a; }
+
+#lock .icon__img {
+  background-image: url("../images/combination lock.png"); }
+#lock:hover {
+  background: #ff4e00; }
+
+.image-container {
+  display: inline-block;
+  position: relative; }
+  .image-container__img {
+    width: 100%; }
+  .image-container__overlay {
+    background: rgba(5, 53, 122, 0.8);
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    opacity: 0;
+    top: 0;
+    left: 0; }
+    .image-container__overlay p {
+      font-family: "Sentinel A", "Sentinel B", sans-serif;
+      font-size: 30px;
+      font-weight: 400;
+      color: white;
+      text-align: left; }
+  .image-container:hover > .image-container__overlay {
+    opacity: 1; }
+
+#image-1 {
+  width: 715px;
+  height: 343px; }
+
+#image-2 {
+  width: 330px;
+  height: 340px; }
+
+.person-container {
+  width: 345px;
+  height: 355px;
+  position: relative;
+  display: inline-block; }
+  .person-container img {
+    width: 100%;
+    position: absolute; }
+  .person-container .person__img--still {
+    z-index: 1; }
+  .person-container .person__img--animated {
+    opacity: 0;
+    z-index: 2;
+    border: 1px solid #05357a;
+    border-top: 0; }
+  .person-container .person__overlay {
+    width: 100%;
+    height: 100%;
+    /*
+    background: #05357a;
+    opacity: 0.8;
+    */
+    position: absolute;
+    z-index: 2; }
+  .person-container .person__info {
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 2em;
+    width: 100%;
+    height: 100px;
+    z-index: 3;
+    border: 0;
+    transition: 0.3s;
+    font-family: "Sentinel A", "Sentinel B", sans-serif;
+    font-weight: 300; }
+    .person-container .person__info .person__name {
+      font-size: 22px; }
+    .person-container .person__info .person__role {
+      font-size: 18px;
+      font-style: italic; }
+
+.person-container:hover .person__overlay {
+  opacity: 0; }
+.person-container:hover .person__img--animated {
+  opacity: 1; }
+.person-container:hover .person__info {
+  transform: translateY(-100px);
+  color: #01224c;
+  background: white;
+  border: 1px solid #05357a;
+  border-bottom:0;
+}
+
+/* ===========================================================
+ * COLOR HELPER CLASSES
+ * =========================================================== */
+.atlantis {
+  background-color: #95c93c; }
+
+.blue-charcoal {
+  background-color: #272c34; }
+
+.catalina-blue {
+  background-color: #05357a; }
+
+.french-blue {
+  background-color: #006bb7; }
+
+.oxford-blue {
+  background-color: #01224c; }
+
+.vermilion {
+  background-color: #ff4e00; }
+
+.very-light-gray {
+  background-color: #cfcfcf; }
+
+.tree-poppy {
+  background-color: #faa21a; }
+
+.fire-engine-red {
+  background-color: #ce1f2e; }
+
+.dull-lime {
+  background-color: #2cb34a; }
+
+.color-tile {
+  width: 10em;
+  height: 10em;
+  display: inline-block;
+  color: white;
+  padding: 1em; }
+  .color-tile p {
+    position: absolute; }
+
+/* Buttons & Links */
+.btn--solid,
+.btn--ghost {
+  padding: 0.5em 2em;
+  text-transform: lowercase;
+  display: inline-block; }
+
+.btn--solid {
+  background: #006bb7;
+  border: 0;
+  color: white; }
+  .btn--solid:hover {
+    background: #05357a;
+    color: white; }
+
+.btn--ghost {
+  background: transparent;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 0.25em; }
+  .btn--ghost:hover {
+    background: white;
+    color: #95c93c;
+    border: 1px solid white; }
+
+body a {
+  text-decoration: none;
+  color: #006bb7; }
+  body a:hover {
+    color: #95c93c; }
+
+.link--light {
+  text-decoration: underline;
+  color: white; }
+  .link--light:hover {
+    color: white;
+    opacity: 0.5; }
+
+.tag {
+  color: #767c84;
+  text-transform: uppercase; }
+  .tag:hover {
+    color: #95c93c; }
+
+.footer a {
+  color: #cfcfcf; }
+  .footer a:hover {
+    color: #95c93c; }
+
+fieldset {
+  border: 0; }
+
+form p {
+  font-size: 16px;
+  font-family: "promixa-nova", sans-serif;
+  color: #cfcfcf; }
+
+form label {
+  font-size: 18px;
+  font-family: "Sentinel A", "Sentinel B", serif;
+  color: #cfcfcf; }
+
+[type="text"],
+textarea {
+  font-size: 16px;
+  font-family: "promixa-nova", sans-serif;
+  color: #cfcfcf;
+  border: 1px solid #cfcfcf;
+  width: 100%;
+  min-height: 50px; }
+  [type="text"]:focus,
+  textarea:focus {
+    outline: 0;
+    border: 1px solid #95c93c;
+    /*box-shadow: 0 0 3px 2px #95c93c; */ }
+  [type="text"]:hover,
+  textarea:hover {
+    border: 1px solid #95c93c; }
+
+textarea {
+  height: 150px; }
+
+/* ===========================================================
+ * CHECKBOXES & RADIO BUTTONS
+ * =========================================================== */
+[type='checkbox'],
+[type='radio'] {
+  opacity: 0;
+  width: 0; }
+
+.checkbox,
+.radiobtn {
+  border: 1px solid #cfcfcf;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  height: 1rem;
+  width: 1rem;
+  padding: 0.25rem; }
+
+[type='checkbox']:checked + label .checkbox {
+  background: #95c93c; }
+
+[type='radio'] + label .radiobtn {
+  border-radius: 50%; }
+
+[type='radio']:checked + label .radiobtn {
+  background: #95c93c; }
+
+span.item {
+  margin-left: 0.5rem; }
+
+/* ===========================================================
+ * HERO PARALLAX IMAGE
+ * =========================================================== */
+.hero-image {
+  height: 540px;
+  background-image: url("../images/hero-032016.jpg");
+  background-size: cover, cover; }
+  .hero-image__title {
+    color: white; }
+  .hero-image__subtitle {
+    color: white;
+    /*margin-top: -60px;*/ }
+
+.hero-image--large {
+  height: 940px;
+  background-image: url("../images/hero-032016.jpg");
+  background-size: cover, cover;
+  padding: 100px; }
+
+/* ===========================================================
+ * STYLE SHEET LAYOUT HELPER CLASSES
+ * =========================================================== */
+.background-helper {
+  display: inline-block;
+  padding: 1em; }
+
+.col-1 {
+  width: 100%;
+  margin-bottom: 1%; }
+
+.col-2 {
+  width: 48%;
+  margin: 1%; }
+
+.col-3 {
+  width: 30%;
+  margin: 1%; }
+
+section {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1em; }
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=maritz-styleguide.css.map */
