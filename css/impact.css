@@ -1,0 +1,551 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: "proxima-nova", "helvetica", "tahoma", "arial";
+	font-size: 1em;
+	font-weight: 300;
+	color: #1b1b1b;
+	line-height:1.1em;
+}
+
+.mobile{
+	display:none;
+}
+
+
+.landing .banner{
+	background: #003DA7 url(../images/bluebackground.png) no-repeat center center;
+	background-size:cover;
+	display:block;	
+}
+
+.education .banner{
+	background: url(../images/dBnrEducation.jpg) no-repeat center center;
+	background-size: cover;
+	display:block;
+	height: 100%;
+	position:fixed;
+	width: 100%;
+}
+	
+h1{
+	color:#ffffff;
+	font-family:"Sentinel A", "Sentinel B", Sentinel, serif;
+	font-size:5em;
+	font-weight:500;
+	margin:0;
+	text-align:center;
+}
+
+p{
+	max-width:600px;
+	margin: 0 auto;
+}
+
+.banner h2, .banner h3 {
+	color:#ffffff;
+	font-family:"Sentinel A", "Sentinel B", Sentinel, serif;
+	font-size:2.6875em;
+	margin:0;
+}
+
+.banner h2{
+	font-size:4.5em;
+	padding:5% 0 40px 0;
+	margin:-4% 0 0;
+}
+
+.banner h3{
+	padding:5% 0 0 4%;	
+}
+
+.yellow{
+	color:#FFCD36;
+}
+
+
+.intro{
+	/*padding:3% 20% 3% 10%;*/
+	margin:0 auto;
+	width:70%;
+}
+
+ img.headline{
+	height:133px;
+	margin-top:75px;
+}
+
+.intro p{
+	color:#ffffff;
+	font-size: 1.375em;
+	margin: 0 auto 50px;
+}
+
+.begin a,.begin a:hover{
+	color:#FFCD36;
+	text-decoration:none;
+}
+
+.begin a span{
+	background:url(../images/gtFFCD36.png) no-repeat left bottom;
+	display:inline-block;
+	height:14px;
+	width:8px;
+}
+
+
+.lineV{
+	background:url(../images/lineV.png)  repeat-y;
+	margin:0 auto;
+	display:block;
+	height:667px;
+	width:1px;
+}
+
+
+.lineV.short {
+	height:168px;
+}
+
+.lineV.medium {
+	height:420px;
+}
+
+.lineV.long {
+	height:900px;
+}
+
+
+.lineH{
+	background:url(../images/lineH.png) repeat-x;
+	margin:0 auto;
+	display:block;
+	height:1px;
+	width:100%}
+
+
+
+.box3.nb{
+	border:none;
+	padding:10px;
+}
+
+.borderBox{
+	border:1px solid #ffffff;
+	color:#ffffff;
+	padding: 1.5%;
+	text-align:center;
+}
+
+.box3{
+	border:1px solid #ffffff;
+	color:#ffffff;
+	float:left;
+	font-size:1.75em;
+	line-height:1.2em;
+	margin:1%;
+	text-align:center;
+	width:31.3%;
+}
+
+.landing .box3{
+	margin-bottom:0;
+}
+
+.parallax .box3{
+	font-size:1.3em;
+	font-weight:200;
+}
+
+.box3 span{
+	display:block;
+	font-family:"Sentinel A", "Sentinel B", Sentinel, serif;
+	font-size: 2.75em;	
+	line-height: 1.5em;
+}
+
+
+.begin{
+	font-size:1.5em;
+	width:50%;
+	margin: 0 auto 165px;
+	padding: 25px 0;
+}
+
+
+.container{
+	width:100%;
+}
+
+ul.menu{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+ul.menu li{
+	background-size:cover;
+	color:#ffffff;
+	display: inline-block;
+	float:left;
+	height:205px; 
+	font-family:"Sentinel A", "Sentinel B", Sentinel, serif;
+	font-size:1.5em;
+	position:relative;
+	text-align:center;
+	padding-top:88px;
+	/*width:14.23%;*/
+	width: 14.285%;
+}
+					
+/*ul.menu li:last-child{	
+	width:14.62%;	
+}*/
+	
+ul.menu li span{
+	background:url(../images/d1.png) no-repeat -3px bottom;;
+	display:block;
+	position:absolute;
+	z-index:1;
+	bottom:0;
+}
+
+ul.menu li a, ul.menu li a:hover {
+	color:#fff;
+	text-decoration:none;
+	position:relative;
+	z-index:10;
+}
+	
+	
+li.menuEducation{
+	background:url(../images/dMenuEducation.png) no-repeat center top;
+}
+
+ul.menu li.menuEducation span{
+	background-image:url(../images/d1.png);
+	height:129px;
+	width:82px;
+}
+
+
+li.menuEnvironment{
+	background:url(../images/dMenuEnvironment.png) no-repeat center top;
+}
+
+ul.menu li.menuEnvironment span{
+	background-image: url(../images/d2.png);
+	height:134px;
+	width:99px;
+}
+
+li.menuHumanTrafficking{
+	background:url(../images/dMenuHumanTrafficking.png) no-repeat center top;
+}
+
+
+ul.menu li.menuHumanTrafficking span {
+    background-image: url(../images/d3.png);
+    height: 134px;
+    width: 96px;
+    display: block;
+}
+
+
+li.menuCommunityService{
+	background:url(../images/dMenuCommunityService.png) no-repeat center top;
+}
+
+ul.menu li.menuCommunityService span {
+    background-image: url(../images/d4.png);
+    height: 129px;
+    width: 108px;
+    display: block;
+}
+
+li.menuWorkplaceWellness{
+	background:url(../images/dMenuWorkplaceWellness.png) no-repeat center top;
+}
+
+ul.menu li.menuWorkplaceWellness span {
+    background-image: url(../images/d5.png);
+    height: 134px;
+    width: 96px;
+    display: block;
+}
+
+
+li.menuInnovation{
+	background:url(../images/dMenuInnovation.png) no-repeat center top;
+}
+
+ul.menu li.menuInnovation span {
+    background-image: url(../images/d6.png);
+    height: 134px;
+    width: 97px;
+    display: block;
+}
+
+li.menuAwards{
+	background:url(../images/dMenuAwards2.png) no-repeat center top;
+}
+
+ul.menu li.menuAwards span {
+    background-image: url(../images/d7.png);
+    height: 134px;
+    width: 98px;
+    display: block;
+}
+
+@media screen and (max-width: 1024px) {
+	.banner h2{
+		font-size:3.5em;
+	}
+	
+	.banner h3{
+		font-size:2em;
+	}
+	
+	.box3 span{
+		font-size: 2.25em;
+	}
+	
+	.box3 {
+		font-size:1.5em;
+	}
+
+}
+
+@media screen and (max-width: 900px) {
+	
+	 img.headline{
+	height:120px;
+	margin-top:70px;
+}
+	.box3 span{
+		font-size:1.75 em;
+	}
+	
+	.box3 {
+		font-size:1.25em;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+		.mobile{
+			display:block;
+		}
+	
+		p{
+			max-width:300px;
+		}
+		
+		.intro p{
+			font-size:1.25em;
+			line-height:1.3em;
+			margin-top:50px;
+			margin-bottom: 10px;
+		}
+		
+		.desktop{
+			display:none;
+		}
+	
+		 img.headline{
+		height:70px;
+		margin-top:50px;
+		}
+	
+	
+	
+	.banner{
+		/*background-position: -300px top, 130% bottom;
+		height:175px;*/
+	}
+	
+	.banner h2{
+		font-size:2.25em;
+		margin-top:-5%;
+	}
+	
+	.banner h3{
+		font-size:1.375em;
+	}
+	
+	.box3, .begin{
+	clear: both;
+    width: 80%;
+    margin: 25px auto 0;
+    float: none;
+	}
+	
+	 .begin{
+	padding:25px 0;
+	margin-bottom:100px;
+	margin-top:0;	
+	 }
+	
+	
+.lineV.short{
+	height:114px;
+}
+	
+.lineV.medium {
+	height:225px;
+}
+	
+	
+	ul.menu li, ul.menu li:last-child{	
+	background-size:cover;
+	color:#ffffff;
+	display: block;
+	float:none;
+	height:70px; 
+	font-family:"Sentinel A", "Sentinel B", Sentinel, serif;
+	font-size:1.5em;
+	padding-top:25px;
+	position:relative;
+	width:100%
+}
+
+ul.menu li span{
+	background:url(../images/m1.png) no-repeat -5px bottom;
+	height:65px;
+	width:41px;
+	display:block;
+	position:absolute;
+	bottom:0;
+}
+
+
+li.menuEducation{
+	background:url(../images/mMenuEducation.png) no-repeat center center;
+}
+ul.menu li.menuEducation span{	background-image:url(../images/m1.png);
+}
+
+li.menuEnvironment{
+	background:url(../images/mMenuEnvironment.png) no-repeat center center;
+}
+
+ul.menu li.menuEnvironment span{
+	background-image:url(../images/m2.png);
+	height:67px;
+	width:50px;
+}
+
+li.menuHumanTrafficking{
+	background:url(../images/mMenuHumanTrafficking.png) no-repeat center center;
+}
+
+ul.menu li.menuHumanTrafficking span{
+	background-image:url(../images/m3.png);
+	height:67px;
+	width:48px;
+}
+
+li.menuCommunityService{
+	background:url(../images/mMenuCommunityService.png) no-repeat center center;
+}
+
+ul.menu li.menuCommunityService span{
+	background-image:url(../images/m4.png);
+	height:65px;
+	width:55px;
+}
+
+li.menuWorkplaceWellness{
+	background:url(../images/mMenuWorkplaceWellness.png) no-repeat center center;
+}
+
+ul.menu li.menuWorkplaceWellness span{
+	background-image:url(../images/m5.png);
+	height:67px;
+	width:47px;
+}
+
+li.menuInnovation{
+	background:url(../images/mMenuInnovation.png) no-repeat center center;
+}
+
+ul.menu li.menuInnovation span{
+	background-image:url(../images/m6.png);
+	height:67px;
+	width:49px;
+}
+
+li.menuAwards{
+	background:url(../images/mMenuAwards2.png) no-repeat center center;
+}
+
+ul.menu li.menuAwards span{
+	background-image:url(../images/m7.png);
+	height:67px;
+	width:49px;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+	
+img.headline{
+ 	height:50px;
+}
+	
+.box3, .begin{
+		width:100%;	
+}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+	.begin {
+    width: 70%;
+}
+
+ul.menu li {
+    font-size: 1.1em;
+}
+
+}
+
+/*@media screen and (max-width: 600px) {
+	.banner{
+		background-position: -300px top, 140% bottom;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.banner{
+		background-position: -300px top, 145% bottom;
+	}
+}
+
+
+@media screen and (max-width: 500px) {
+	.banner{
+		background-position: -300px top, 150% bottom;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.banner{
+		background-position: -300px top, 175% bottom;
+	}
+}
+
+
+@media screen and (max-width: 400px) {
+	.banner{
+		background-position: -300px top, 250% bottom;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.banner{
+		background-position: -300px top, 275% bottom;
+	}
+}
+*/

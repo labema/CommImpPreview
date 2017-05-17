@@ -1,0 +1,153 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+#slide1{
+	background: #ffc60b url(img/slide01_800.jpg) no-repeat top right;
+	 -moz-background-size: auto;
+  -o-background-size: auto;
+  background-size:auto;
+}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+#slide1{
+	background: #ffc60b url(img/slide01_800.jpg) no-repeat top right;
+	 -moz-background-size: auto;
+  -o-background-size: auto;
+  background-size:auto;
+}
+}
+
+
+/* Retina iPad 3 & 4 in portrait and landscape----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 2){
+#slide1{
+	background: #ffc60b url(img/slide01_1024.jpg) no-repeat top right;
+	 -moz-background-size: auto;
+  -o-background-size: auto;
+  background-size:auto;
+}}
+
+/* Retina iPad 3 & 4 in landscape----------- */
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 2){
+#slide1{
+	background: #ffc60b url(img/slide01_1024.jpg) no-repeat top right;
+	 -moz-background-size: auto;
+  -o-background-size: auto;
+  background-size:auto;
+}
+}
+
+/* Retina iPad 3 & 4 in landscape----------- */
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 2){
+#slide1{
+	background: #ffc60b url(../img/slide01_1024.jpg) no-repeat top right;
+	 -moz-background-size: auto;
+  -o-background-size: auto;
+  background-size:auto;
+}
+}
+
+
+
+#slide2{
+	background-image: none;
+	background-color:transparent;
+	color: #333;
+	height: 600px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 220px 0;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#slide2 p.quotes{
+	margin-bottom:10px;
+}
+
+
+#slide2 img{
+	float:left;
+	
+}
+
+#slide3{
+	background: url("img/slide03a.jpg") 50% 0 no-repeat fixed;
+	color: #000;
+	height: 600px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 220px 0;	
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#slide4{
+	background: url("img/slide04.jpg") 50% 0 no-repeat fixed;
+	color: #000;
+	color: #333;
+	height: 600px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 220px 0;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#slide5{
+	background:url("img/slide05b.jpg") 50% 0 no-repeat fixed;
+	color: #333;
+	height: 600px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 200px 0px 220px 0;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#slide6{
+	background:url("img/slide02.jpg") 50% 0 no-repeat fixed;
+	color: #333;
+	/*height: 600px;*/
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 220px 0;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+

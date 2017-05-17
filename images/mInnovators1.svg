@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="11163 -3663.367 282 267">
+  <defs>
+    <style>
+      .cls-1, .cls-3, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: rgba(255,255,255,0);
+        stroke: #fff;
+      }
+
+      .cls-3 {
+        font-size: 36px;
+        font-family: Sentinel-Medium, Sentinel;
+        font-weight: 500;
+      }
+
+      .cls-4 {
+        font-size: 22px;
+        font-family: ProximaNova-Light, Proxima Nova;
+        font-weight: 300;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+
+      .cls-6 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_8157" data-name="Group 8157" transform="translate(11121 -6021)">
+    <path id="Path_2571" data-name="Path 2571" class="cls-1" d="M14.692,138,7.02,166.706H.6L8.325,138Z" transform="translate(154.713 2311.16)"/>
+    <path id="Path_2574" data-name="Path 2574" class="cls-1" d="M35.8,19.6H55.529v5.637H35.8Z" transform="translate(137.885 2367.763)"/>
+    <g id="Rectangle_66" data-name="Rectangle 66" class="cls-2" transform="translate(42 2357.633)">
+      <rect class="cls-5" width="282" height="267"/>
+      <rect class="cls-6" x="0.5" y="0.5" width="281" height="266"/>
+    </g>
+    <g id="Group_3194" data-name="Group 3194" transform="translate(-4 1645.633)">
+      <text id="_32" data-name="32" class="cls-3" transform="translate(78 837)"><tspan x="89.311" y="35">32</tspan></text>
+      <text id="Innovation_workshops" data-name="Innovation workshops" class="cls-4" transform="translate(85 885)"><tspan x="53.764" y="17">Innovation </tspan><tspan x="51.212" y="47">workshops</tspan></text>
+    </g>
+    <path id="Path_2569" data-name="Path 2569" class="cls-1" d="M54.959,138v19.1H48.8V138Z" transform="translate(131.67 2311.16)"/>
+    <path id="Path_2570" data-name="Path 2570" class="cls-1" d="M48.8,0h6.159V9.029H48.8Z" transform="translate(131.67 2377.133)"/>
+    <path id="Path_2572" data-name="Path 2572" class="cls-1" d="M81.7,138l7.672,28.706h6.42L88.12,138Z" transform="translate(115.942 2311.16)"/>
+    <path id="Path_2573" data-name="Path 2573" class="cls-1" d="M4.8,23H19.78v5.063H41.857V23h14.98V74.411H4.8Z" transform="translate(152.705 2366.138)"/>
+    <path id="Path_2575" data-name="Path 2575" class="cls-1" d="M0,123.8H57.047v6.263H0Z" transform="translate(155 2317.949)"/>
+  </g>
+</svg>

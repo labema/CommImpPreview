@@ -1,0 +1,1117 @@
+/*
+Theme Name: Simple Parallax Website
+Description: Simple Parallax Scrolling Effect
+Author: Samuel Dalusung
+*/
+
+
+/*= GENERAL STYLING
+--------------------------------------------------------*/
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.center { margin: 0 auto; }
+.content{ margin: 0 auto; max-width:960px; width: 75%; }
+
+
+h1, h2, h3, h4{
+	text-align:center;
+}
+
+.parallax h2{
+	font-family:"Sentinel A", "Sentinel B", Sentinel, serif;
+	font-size: 3.75em; 
+	margin: 30px 0 0;
+ }
+ 
+ .parallax h3{
+	 color:#ffffff;
+	 font-size: 3em;
+	 line-height:1em;
+	 margin:20px 0;
+ }
+
+
+.parallax h4{
+	font-family: "proxima-nova", "helvetica", "tahoma", "arial";
+	font-size: 2.625em;
+	font-weight: 300;
+}
+
+
+.slideshow{
+	background:url(../images/white30percent.png) repeat;
+	 width: 100%;
+	 margin: 10px auto;
+	 padding:20px 0;
+}
+
+.slides img {
+    margin: 0 auto;
+    width: 100%;
+}
+	
+.section {
+    margin-top: 40px;
+}
+
+.quote{
+	background:url(../images/white30percent.png) repeat;
+}
+
+.quote span{
+	background: url(../images/quotes.png) no-repeat 25px top;
+	height: 84px;
+	width: 156px;
+	display: block;
+	position: absolute;
+ }
+
+.parallax .quote p{
+	 font-size: 2.4em;    
+    font-weight: 200;
+    text-align: left;
+    margin: 0;
+    padding: 40px 80px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.parallax .quote p.tagline{
+	font-size:1.5em;
+	font-style:italic;
+	line-height:1.4em;
+	padding-top: 0;
+	}
+
+.column{
+	float:left;
+	width:45%;	
+	padding-bottom: 40px;
+}
+
+.parallax .box3 p{
+	margin:20px auto 10px;
+}
+
+.parallax .box3 h4 {
+	font-family: "Sentinel", serif;
+    margin: 10px auto 40px;
+}
+
+.section.video{
+	width:640px;
+	margin: 0 auto;
+}
+
+.video iframe{
+	width:640px;
+	height:360px;
+}
+
+.parallax .video p {
+    text-align: left;
+    margin-top: .8em;
+}
+
+/*education */
+
+
+.partnerships img{
+	margin: 0  auto;
+	width: auto;
+	display: block;	
+}
+
+.partnerships img.cities{
+	height: 400px;
+}
+
+.schools .lineV{
+	margin-top:-10px;
+}
+
+
+
+.schools .column img{
+	width:100px;
+}
+
+.schools .column img.offset{
+	margin-top:23px;
+}
+
+.section.schools{
+	margin-top:-10px;
+}
+
+.section.schools .box3{
+	width: 48%;
+	
+	float:left;
+	height:445px;
+}
+
+.schools p:last-child {
+    margin-top: 120px;
+    width: 70%;
+    line-height: 1.25em;
+}
+
+.parallax .stem p{
+    text-align: left;
+    max-width: 80%;
+    margin: 50px 0;
+}
+
+.stem .box4{
+	float:left;
+	height:270px;
+}
+
+.stem .box4 img{
+	width:220px;
+}
+
+.partnerLogos{
+	width:762px;
+	margin:0 auto;
+	
+}
+
+.partners img {
+    width: 710px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.parallax .partners h3 {
+    margin: 60px 0;
+}
+
+/*end education */
+
+/*environment */
+
+.section.green {
+    padding-top: 30px;
+}
+
+img.challenge{
+	width:238px;
+	margin:0 auto;
+	display:block;
+}
+
+img.lightbulb{
+	width:215px;
+	margin:90px auto 0;
+	display:block;
+}
+
+.section.dirt {
+    margin-top: 0;
+}
+
+.dirt img {
+    width: 200px;
+	padding: 20px;
+	border-radius: 50%;
+	background: url(../images/white85percent.png) repeat;
+	margin: 0 auto;
+	display: block;
+}
+
+.dirt h2 {
+    line-height: 1.1em;
+    max-width: 800px;
+    margin: auto;
+}
+
+.parallax.environment p {
+    font-size: 1.5em;
+}
+
+.bees h3 {
+    text-align: left;
+}
+
+.parallax.environment .bees p {
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+	max-width: 100%;
+}
+
+.parallax.environment .bees .quote p {
+    max-width: 80%;
+}
+
+.section.colonies {
+    border: 1px solid #fff;
+	margin-top: 0;
+    padding: 20px;
+}
+
+.colonies img{
+	width:90%;
+	margin:0 auto;
+	display:block;
+}
+	
+
+/*end environment */
+
+/* start trafficking */
+
+.trafficking h1{
+		line-height: 1em;
+}
+
+.imgShield{
+	width:112px;
+	float:left;	
+}
+
+.section.quote{
+	margin-top:0;
+}
+
+
+.shield .column1, .shield .column2{
+	float:left;
+}
+
+.shield .column1 {
+	clear:both;
+	width:112px;  
+}
+
+.shield .column2 {
+    width: 70% ;
+	padding-left:20px;
+	}
+
+
+.shield h3 {
+    margin-top: -10px;
+}
+
+.parallax .shield p {
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.parallax .shield p span {
+	font-weight:500;
+}
+
+
+.shield img.circle{
+	width:20px;
+	display:block;
+	margin: 0 auto;
+}
+
+.trafficking .section.slideshow{
+	margin-top:0;
+}
+
+.stats img{
+	width:100%;
+	display: block;
+	max-width:960px;
+	margin: 0 auto;
+}
+
+
+/* end trafficking */
+
+
+/* community service */
+
+.parallax .commIntro p{
+	max-width:700px;	
+}
+
+
+/* end community service */
+
+
+/* wellness */
+.wellnessTop{
+	background:url(../images/lightfill.png) repeat;
+	 width: 100%;
+	 margin: 10px auto;
+	 padding:20px 0 40px;
+	
+}
+
+.wellnessTop h2{
+	margin-bottom:40px;
+}
+
+
+.wellnessTop .column{
+float: left;
+width: 50%;
+text-align: center;
+font-size: 1.75em;
+line-height: 1.5em;
+}
+
+
+.parallax .habits p, .parallax .heart p  {
+ margin: 30px auto 15px;
+font-size: 1.5em;
+}
+
+
+/* end  wellness */
+
+
+/* innovation */
+.section.capital{
+	margin-bottom:20px;
+}
+
+.section.capital img, .section.innovators img {
+	max-width:800px;
+	display:block;
+	margin:0 auto;
+}
+
+
+.parallax .summit p {
+    font-size: 1.8em;
+    max-width: 750px;
+}
+
+.parallax .summit h2 {
+    font-size: 4em;
+}
+
+
+
+/* end innovation */
+
+
+/* awards */
+.awardsTop img{
+	width:98px;
+	display:block;
+	margin: 100px auto 10px;
+}
+
+.awardsMiddle{
+	width:100%;
+	margin:40px auto;	
+}
+
+.awardCircle{
+	background-size: 80% !important;
+	height:225px;
+	width: 25%;
+	display:block;	
+	float:left;
+}
+
+
+.awardCircle.circle1{
+	background:url(../images/awdStlPD.png) no-repeat center center ;
+	
+}
+
+.awardCircle.circle2{
+	background:url(../images/awdBestPlacesCommunity.png)  no-repeat center center;
+	
+}
+
+
+.awardCircle.circle3{
+	background:url(../images/awdBestPlacesGiant.png)  no-repeat center center;
+	
+}
+
+
+.awardCircle.circle4{
+	background:url(../images/awdGreen.png) no-repeat center center;
+	
+}
+
+
+.awardCircle.circle5{
+	background:url(../images/awdInnovation.png) no-repeat center center;
+	
+}
+
+
+.awardCircle.circle6{
+	background:url(../images/awdHealthiest.png) no-repeat center center;
+	
+}
+
+
+.awardCircle.circle7{
+	background:url(../images/awdRideFinders.png) no-repeat center center;
+	
+}
+
+
+.awardCircle.circle8{
+	background:url(../images/awdPhilanthropy.png) no-repeat center center;
+	
+}
+
+.thankyou {
+    margin-bottom: 100px;
+}
+
+
+/* end awards */
+
+
+/*= HEADER & NAVIGATION
+--------------------------------------------------------*/
+
+.header { 
+	width: 100%; 
+	height: 60px;
+	position: fixed;
+	margin-top: 0px;
+	z-index:1000;
+}
+
+.education .header {
+	background-color: #003DA7;
+	}
+
+.environment .header {
+	background-color:#069948;
+}
+
+.trafficking .header {
+	background-color:#FF3C39;
+}
+
+.community .header {
+	background-color:#F9A319;
+}
+
+.wellness .header {
+	background-color:#5CBAAB;
+}
+
+.innovation .header {
+	background-color:#003DA7;
+}
+
+.awards .header {
+	background-color:#003DA7;
+}
+
+
+.header .logo img {
+	/*min-width: 100px;
+	max-width: 200px;
+    width: 23%;*/
+	height:28px;
+    position: absolute;
+    left: 5%;
+	top:15px;
+}
+
+
+.logo:hover, .header .logo img:hover {
+	opacity: 1;
+}
+
+/* menu */
+#primary_nav_wrap
+{
+	margin-top:15px
+}
+
+#primary_nav_wrap ul
+{
+	list-style:none;
+	position:relative;
+	float:right;
+	margin:0 106px 0 0 ;
+	padding:0
+}
+
+#primary_nav_wrap ul a
+{
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	line-height:32px;
+	padding:4px 15px 9px;	
+}
+
+#primary_nav_wrap ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+	background:#ddd
+}
+
+#primary_nav_wrap ul li ul li:hover
+{
+	background:url(../images/white30percent.png) repeat;
+}
+
+#primary_nav_wrap ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:url(../images/lightfill.png) repeat;
+	padding:0
+}
+
+#primary_nav_wrap ul ul li
+{
+	/*float:none;*/
+	width:175px
+}
+
+#primary_nav_wrap ul ul a
+{
+	line-height:120%;
+	padding:10px 15px
+}
+
+#primary_nav_wrap ul ul ul
+{
+	top:0;
+	left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block
+}
+
+/* end menu */
+
+
+
+
+body a {
+	color:#fff;
+}
+
+.header a {
+	clear:both;
+	text-decoration: none;
+	float: left;
+	font-size: .9em;
+	line-height: 60px;
+	/*margin: 0 54px 0 0;*/
+	color: #FFF;
+	opacity:.8;	
+}
+
+.header a:hover, body  a:hover {
+	color: #FFF;
+	opacity:.9;
+}
+
+.parallax p{
+	color:#ffffff;
+	font-family: "Proxima Nova", sans-serif;
+	font-size:1.3em;
+	line-height:1.5em;
+	text-align:center;
+	margin:50px auto;
+	max-width:600px;
+}
+
+
+
+
+/*= SLIDES STYLING
+--------------------------------------------------------*/
+
+#slide1, #slide2, #slide3, #slide4, #slide5, #slide6 { 
+	color: #fff;
+	height: 100%;
+	margin: 0;
+	padding: 220px 0;
+	width: 100%; }
+	
+.education #slide1{
+	background:url(../images/bnrEducation.jpg) 50% 0 no-repeat fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.environment #slide2 {
+	background:url(../images/bnrEnvironment.jpg) 50% 0 no-repeat fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.trafficking #slide3 {
+	background:url(../images/bnrTrafficking.jpg) 50% 0 no-repeat fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.community #slide4 {
+	background:url(../images/bnrCommunity.jpg) 50% 0 no-repeat fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.wellness #slide5 {
+	background:url(../images/bnrWellness.jpg) 50% 0 no-repeat fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.innovation #slide6{
+	background:url(../images/bnrInnovation.jpg) 50% 0 no-repeat fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.awards #slide7 {
+	background:url(../images/bnrAwards.jpg) 50% 0 no-repeat fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+	
+	#slide1, #slide2, #slide3, #slide4, #slide5, #slide6 { 
+	padding-top:150px;
+	}
+	
+	.content{
+		width:80%;
+	}
+	
+	.header { 
+		height:70px;
+	}
+	
+	.header .logo img {
+		height:25px;
+		top:20px;
+	}
+	
+	
+	.header a{
+		font-size: 1.25em;
+		line-height:70px;
+	}
+	
+	#primary_nav_wrap {
+    	margin-top: 20px;
+	}
+	
+	
+	#primary_nav_wrap ul a {
+	    padding: 0px 15px 18px;
+	}
+	
+	#primary_nav_wrap ul {
+   		 margin-top: 0;
+		 margin-right:75px;
+	}
+	
+	#primary_nav_wrap ul ul {
+	background: url(../images/white85percent.png) repeat;
+	}
+	
+	#primary_nav_wrap ul ul a {
+     color: #003DA7;
+		}
+	
+	#primary_nav_wrap ul li ul li:hover {
+    background: #fff;
+	}
+	
+	.parallax h1{
+		font-size:3em;
+		line-height: 1em;
+	}
+		
+	.parallax h2{
+	 font-size:2.25em;
+	  line-height: 1em;
+	}
+	
+	.parallax h4, 	.parallax h3 {
+    font-size: 1.75em;
+    line-height: 1em;
+	}
+	
+	.parallax .quote p {
+		padding: 40px 20px;
+		font-size: 1.5em;
+		line-height: 1.25em;
+	}
+	
+	.parallax .quote p.tagline {
+    font-size: 1.15em;
+	padding-top:0;
+	}
+	
+	.lineV {
+		height:300px;
+	}
+	
+	.lineV.medium {
+		height:150px;
+	}
+	
+	.section.video{
+		width:320px;
+	}
+	
+	.video iframe{
+		margin: 0 auto;
+		width:320px;
+		height:180px;
+	}
+	
+	.video p {
+    width: 60%;
+	}
+	
+	
+	/* education */
+	.partnerships img.cities {
+    height: auto;
+	}
+	
+	.section.schools .box3 {
+    width: 282px;
+    margin-top: 45px;
+    float: none;
+    height: 345px;
+}
+	
+	.section.schools .box3 h4{
+		margin-bottom:20px;
+	}
+	
+	.section.schools p:last-child {
+    margin-top: 40px;
+    line-height: 1.25em;
+    font-size: 1em;
+	}
+	
+	.schools .column img.offset {
+    margin-top: 14px;
+	}
+
+	.schools .column img {
+    width: 60px;
+	}
+	
+	.schools .lineV.mobile {
+	display: block;
+	float: none;
+	}
+	
+	.parallax .stem p {
+	margin: 50px auto;
+    text-align: center;
+	}
+	
+	.stem{
+		width:100%;
+	}
+	
+	.stem .mobile {
+    width: 310px;
+    margin: 0 auto;
+	}
+	
+	.stem .mobile img {
+    width: 310px;
+}
+	
+	.stem .box4{
+	  float: none;
+	  height: auto;
+	  display: flex;
+	  justify-content: space-evenly;
+	  margin: 10px auto;
+	  width: 282px;
+		}
+	
+	.stem .box4 img{
+		width:282px;
+	}
+	
+	.partners img {
+    width: 266px;
+    margin: 0 auto;
+    display: block;
+}
+	
+	/* end education */	
+	
+	/* environment */
+	.parallax.environment p{
+		font-size:1.3em;
+	}
+	
+	img.lightbulb {
+    width: 195px;
+    margin-top: 40px;
+	}
+	
+	.parallax.environment .bees .quote p {
+    max-width: 90%;
+	}
+	
+	
+	/*end environment*/
+	
+	/* human trafficking */
+	
+	.trafficking .lineV.medium {
+		height:300px;
+	}
+	
+	
+	
+	.imgShield {
+    width: 70px;
+    float: none;
+    margin: 0 auto;
+    display: block;
+	}
+	
+	.section.shield{
+		margin-top:25px;
+	}
+
+	.shield img.circle {
+     margin-bottom: 30px;
+	}
+
+	.section.shield p{
+		text-align:center;
+		margin: 10px auto 20px;		
+	}
+	
+	.shield .column1 {
+    width: 100%;
+	}
+
+	.shield .column2 {
+    width: 100%;
+    padding-left: 0px;
+    margin: 0 auto;
+	}
+	
+	.trafficking .section.slideshow{
+	margin-top:100px;
+}
+	
+	
+	.stats img{
+	max-width:450px;
+	}
+	
+ /* end human trafficking */	
+	
+	
+/* community service */
+
+
+/* end community service */
+
+
+/* wellness */
+.wellness h1{
+		line-height: 1em;
+	}
+
+.wellnessTop h2{
+	margin-bottom:20px;	
+}
+
+.wellnessTop .column{
+	clear:both;
+	font-size: 1.25em;
+	line-height: 1.5em;
+	padding:0;
+	width:100%;
+}
+
+.parallax .potato p{
+	margin:20px auto;
+	max-width: 300px;
+}
+
+.heart .mobile img {
+	max-width: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.habits .mobile img {
+    max-width: 400px;
+    margin: 0 auto 80px;
+    display: block;
+}
+
+.habits .mobile img:last-child {
+	margin-bottom:0	
+}
+
+.parallax .habits p, .parallax .heart p  {
+    margin: 10px auto 40px;
+}
+
+
+/* end  wellness */
+
+
+/* innovation */
+.innovators img{
+	margin-bottom:40px;
+}
+
+.innovators img:last-child{
+	margin-bottom:0;
+}
+
+/* end innovation */
+
+
+/* awards */
+	
+	
+	.awardCircle {
+   background-size: 95% !important;
+	width: 200px;
+	margin: 10px auto;
+	float: none;
+}
+
+
+
+.awardCircle.circle1{
+	background:url(../images/awdStlPD@2x.png) no-repeat center center ;
+	
+}
+
+.awardCircle.circle2{
+	background:url(../images/awdBestPlacesCommunity@2x.png)  no-repeat center center;
+	
+}
+
+
+.awardCircle.circle3{
+	background:url(../images/awdBestPlacesGiant@2x.png)  no-repeat center center;
+	
+}
+
+
+.awardCircle.circle4{
+	background:url(../images/awdGreen@2x.png) no-repeat center center;
+	
+}
+
+
+.awardCircle.circle5{
+	background:url(../images/awdInnovation@2x.png) no-repeat center center;
+	
+}
+
+
+.awardCircle.circle6{
+	background:url(../images/awdHealthiest@2x.png) no-repeat center center;
+	
+}
+
+
+.awardCircle.circle7{
+	background:url(../images/awdRideFinders@2x.png) no-repeat center center;
+	
+}
+
+
+.awardCircle.circle8{
+	background:url(../images/awdPhilanthropy@2x.png) no-repeat center center;
+	
+}
+
+.thankyou h3{
+	font-size:2.5em;
+}
+
+
+/* end awards */
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+	.trafficking h1, .community h1, .wellness h1{
+		font-size: 3.8em;	
+	}
+	
+	.parallax h2{
+		font-size:3em;
+	}
+	
+	.parallax h3{
+		font-size:2.5em;
+	}
+	
+	.parallax h4{
+		font-size:2em;
+	}
+	
+	.schools p:last-child {
+    margin-top: 40px;
+    width: 70%;
+	}
+
+	
+	
+}
