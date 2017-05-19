@@ -88,10 +88,10 @@ p{
 }
 
 .begin a span{
-	background:url(../images/gtFFCD36.png) no-repeat left bottom;
+	background:url(../images/gtFFCD36.png) no-repeat 5px bottom;
 	display:inline-block;
 	height:14px;
-	width:8px;
+	width:14px;
 }
 
 
@@ -165,10 +165,13 @@ p{
 	line-height: 1.5em;
 }
 
+	.parallax p.continue {
+    font-size: 2em;
+}
 
 .begin{
 	font-size:1.5em;
-	width:50%;
+	width:30%;
 	margin: 0 auto 165px;
 	padding: 25px 0;
 }
@@ -181,8 +184,15 @@ p{
 ul.menu{
 	list-style:none;
 	padding:0;
-	margin:0;
+	margin:20px 0 00;
+	float: left;
+	width: 100%;
 }
+
+.landing ul.menu{
+	margin-top:0;
+}
+
 
 ul.menu li{
 	background-size:cover;
@@ -374,9 +384,10 @@ ul.menu li.menuAwards span {
 		font-size:1.375em;
 	}
 	
+	
 	.box3, .begin{
 	clear: both;
-    width: 80%;
+    width: 60%;
     margin: 25px auto 0;
     float: none;
 	}
@@ -502,7 +513,7 @@ img.headline{
 
 @media screen and (min-width: 768px) and (max-width: 1100px) {
 	.begin {
-    width: 70%;
+    width: 40%;
 }
 
 ul.menu li {
