@@ -15,14 +15,20 @@
         } catch (e) { }
     </script>
     <script src="js/jssor.slider-23.1.5.min.js" type="text/javascript"></script>
-    <script type="text/javascript">
+     <script type="text/javascript">
         jssor_1_slider_init = function() {
+
+            var jssor_1_SlideshowTransitions = [
+              {$Duration:1200,$Opacity:2}
+            ];
 
             var jssor_1_options = {
               $AutoPlay: 0,
-              $SlideWidth: 375,
-              $Cols: 2,
-              $Align: 112,
+              $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
               $ArrowNavigatorOptions: {
                 $Class: $JssorArrowNavigator$
               }
@@ -35,7 +41,7 @@
             function ScaleSlider() {
                 var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
                 if (refSize) {
-                    refSize = Math.min(refSize, 600);
+                    refSize = Math.min(refSize, 450);
                     jssor_1_slider.$ScaleWidth(refSize);
                 }
                 else {
@@ -136,13 +142,13 @@
     <br clear="all" />
   </div>
       <div class="section slideshow">
-    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:600px;height:250px;overflow:hidden;visibility:hidden;"> 
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:450px;height:300px;overflow:hidden;visibility:hidden;"> 
           <!-- Loading Screen -->
           <div data-u="loading" style="position:absolute;top:0px;left:0px;background-color:rgba(0,0,0,0.7);">
         <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
         <div style="position:absolute;display:block;background:url('images/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
       </div>
-          <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:600px;height:250px;overflow:hidden;">
+          <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:450px;height:300px;overflow:hidden;">
         <div> <img data-u="image" src="images/slideSchool1.jpg" />
               <p>St. Louis, MO</p>
             </div>
@@ -194,7 +200,7 @@
       <div class="section video">
       <iframe src="https://player.vimeo.com/video/218077883" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     <!--<iframe src="https://player.vimeo.com/video/216076488"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
-    <p>Teach For America Teachers <nobr>&mdash; St. Louis</nobr></p>
+    <p>Teach For America School Supply Drive <nobr>&mdash;  Making an impact</nobr></p>
   </div>
       <div class="content" >
       <!-- animated line -->
@@ -215,7 +221,7 @@
       <!-- Patrick Henry 2 -->
 <iframe src="https://player.vimeo.com/video/218077861" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <!--    <iframe  src="https://player.vimeo.com/video/216227149" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
-       <p>Patrick Henry Dowtown Academy <nobr>&mdash; getting results</nobr></p>
+       <p>Patrick Henry Dowtown Academy <nobr>&mdash; Getting results</nobr></p>
   </div>
       <div class="content">
        <!-- animated line -->
@@ -259,13 +265,15 @@
     <div class="section stem">
           <div class="desktop"> <img src="images/stem.svg" alt="Stempace collaborative" /> </div>
           <div class="mobile"> <img src="images/mStem.svg" alt="Stempace collaborative" /> </div>
-          <p>We raise our (STEMware) glass to you &mdash; science, technology, engineering 
-        and math teachers. The STEMpact collaborative mission is to prepare today&rsquo;s students to become tomorrow&rsquo;s STEM professionals.<br />
-        <br />
+          <p>
+         We raise our (STEMware) glass to you &mdash; <strong>S</strong>cience, <strong>T</strong>echnology, <strong>E</strong>ngineering and <strong>M</strong>ath teachers. The STEMpact Collaborative’s mission is to prepare today’s students to become tomorrow’s STEM professionals. 
+         <br /><br />
+         
+         Through a network of St. Louis regional businesses, educators, universities, school districts, parents, community organizations and government officials, STEMpact provides assistance to educators and school administrators through a summer training program and ongoing STEM workshops. <br /><br />          
         Maritz + STEMpact = <br />
         4 years of funding for the Quality Professional Development Initiative<br />
         <br />
-        Our 2016 Maritz grant impacted:<br />
+        Our 2016 grant impacted:<br />
       </p>
           <div class="desktop"><img src="images/school.svg"  /></div>
           <div class="mobile"> <img src="images/mSchool.svg"  /> </div>
@@ -326,5 +334,13 @@
       });
     </script> 
 <!-- SLIDES END -->
+<script type='text/javascript'>
+(function (d, t) {
+  var bh = d.createElement(t), s = d.getElementsByTagName(t)[0];
+  bh.type = 'text/javascript';
+  bh.src = 'https://www.bugherd.com/sidebarv2.js?apikey=i4snl1zjsnrympffocbqja';
+  s.parentNode.insertBefore(bh, s);
+  })(document, 'script');
+</script>
 </body>
 </html>

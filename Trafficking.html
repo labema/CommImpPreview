@@ -15,14 +15,20 @@
         } catch (e) { }
     </script>
     <script src="js/jssor.slider-23.1.5.min.js" type="text/javascript"></script>
-    <script type="text/javascript">
+       <script type="text/javascript">
         jssor_1_slider_init = function() {
+
+            var jssor_1_SlideshowTransitions = [
+              {$Duration:1200,$Opacity:2}
+            ];
 
             var jssor_1_options = {
               $AutoPlay: 0,
-              $SlideWidth: 375,
-              $Cols: 2,
-              $Align: 112,
+              $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
               $ArrowNavigatorOptions: {
                 $Class: $JssorArrowNavigator$
               }
@@ -35,7 +41,7 @@
             function ScaleSlider() {
                 var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
                 if (refSize) {
-                    refSize = Math.min(refSize, 600);
+                    refSize = Math.min(refSize, 450);
                     jssor_1_slider.$ScaleWidth(refSize);
                 }
                 else {
@@ -110,7 +116,7 @@
       <div class="section video"> 
           <!-- David Peckinpaugh -->
           <iframe  src="https://player.vimeo.com/video/216391896"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-          <p>David Peckinpaugh, President, Maritz Global Events</p>
+          <p>David Peckinpaugh &mdash; Our fight to end Human Trafficking</p>
         </div>
 
 
@@ -226,13 +232,13 @@ We also amplify the message of St. Louis-based NGO, <span>Exchange Initiative</s
   </div>
   </div> <!-- content -->
         <div class="section slideshow">
-    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:600px;height:250px;overflow:hidden;visibility:hidden;"> 
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:450px;height:300px;overflow:hidden;visibility:hidden;"> 
           <!-- Loading Screen -->
           <div data-u="loading" style="position:absolute;top:0px;left:0px;background-color:rgba(0,0,0,0.7);">
         <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
         <div style="position:absolute;display:block;background:url('images/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
       </div>
-          <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:600px;height:250px;overflow:hidden;">
+          <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:450px;height:300px;overflow:hidden;">
            <div> <img data-u="image" src="images/slideTrafficking4.jpg" />
               <p>Walk for Freedom</p>
             </div>  
@@ -318,5 +324,13 @@ We also amplify the message of St. Louis-based NGO, <span>Exchange Initiative</s
       });
     </script> 
 <!-- SLIDES END -->
+<script type='text/javascript'>
+(function (d, t) {
+  var bh = d.createElement(t), s = d.getElementsByTagName(t)[0];
+  bh.type = 'text/javascript';
+  bh.src = 'https://www.bugherd.com/sidebarv2.js?apikey=i4snl1zjsnrympffocbqja';
+  s.parentNode.insertBefore(bh, s);
+  })(document, 'script');
+</script>
 </body>
 </html>
